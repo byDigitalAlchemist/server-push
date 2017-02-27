@@ -12,7 +12,8 @@
 <body>
 	<script type="text/javascript">
 		function handleGetData(str) {
-  			alert(str);
+  			//alert(str);
+  			console.log("DWR >> " +str)
 		}
 		DWRImpl.getData(handleGetData);
 	</script>
